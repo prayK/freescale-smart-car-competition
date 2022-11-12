@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<settings>
+    <PE_STARTUP>
+        <jtag_numbits_pre_ir>_ "0"</jtag_numbits_pre_ir>
+        <jtag_tap_num>_ "0"</jtag_tap_num>
+        <user_specified_daisy_chain>_ "0"</user_specified_daisy_chain>
+        <CPUTARGETTYPENAME>_ "ARM Processor - Autodetect"</CPUTARGETTYPENAME>
+        <USE_CYCLONEPRO_RELAYS>_ "0"</USE_CYCLONEPRO_RELAYS>
+        <CyclonePro_poweroffonexit>_ "0"</CyclonePro_poweroffonexit>
+        <CyclonePro_currentvoltage>_ "128"</CyclonePro_currentvoltage>
+        <CyclonePro_PowerDownDelay>_ "250"</CyclonePro_PowerDownDelay>
+        <CyclonePro_PowerUpDelay>_ "250"</CyclonePro_PowerUpDelay>
+        <Multilink_PowerDownDelay>_ "250"</Multilink_PowerDownDelay>
+        <Multilink_PowerUpDelay>_ "1000"</Multilink_PowerUpDelay>
+        <USE_SWD>_ "0"</USE_SWD>
+        <IO_DELAY_CNT>_ "0"</IO_DELAY_CNT>
+        <FREQ_FX>_ "4"</FREQ_FX>
+        <FREQ_NORMAL>_ "0"</FREQ_NORMAL>
+        <FREQ_OSJTAG>_ "0"</FREQ_OSJTAG>
+        <FREQ_CYCLONE>_ "3"</FREQ_CYCLONE>
+        <FREQ_TRACELINK>_ "3"</FREQ_TRACELINK>
+        <FREQ_LIGHTNING>_ "1"</FREQ_LIGHTNING>
+        <FREQ_OPENSDA>_ "3"</FREQ_OPENSDA>
+        <RESET_DELAY>_ "0"</RESET_DELAY>
+        <PORT>_ "21"</PORT>
+        <PORT_NAME_STRING>_ ""</PORT_NAME_STRING>
+        <interface_selection>_ "1"</interface_selection>
+        <TraceLink_MaxBufferSize>_ "1"</TraceLink_MaxBufferSize>
+        <SHOWDIALOG>_ "1"</SHOWDIALOG>
+    </PE_STARTUP>
+    <PE_STORED_DEVICES>
+        <device0>_ "NXP_KVx_KV58F1M0M24"</device0>
+    </PE_STORED_DEVICES>
+    <PE_PEDEBUG>
+        <ERASE_PROGRAM_WITHOUT_ASKING>_ "1"</ERASE_PROGRAM_WITHOUT_ASKING>
+        <CURRENTDEVICE>_ "NXP_KVx_KV58F1M0M24"</CURRENTDEVICE>
+        <CURRENTMODE>_ "4"</CURRENTMODE>
+    </PE_PEDEBUG>
+    <PE_DEVICE>
+        <CHIPMODE>_ "NXP_KVx_KV58F1M0M24"</CHIPMODE>
+    </PE_DEVICE>
+    <DebugChecksum>
+        <Checksum>4158802923</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <PE_SETTINGS>
+        <MEMORYSTART1>_ "0"</MEMORYSTART1>
+        <MEMORYSTART2>_ "0"</MEMORYSTART2>
+        <MEMORYSTART3>_ "0"</MEMORYSTART3>
+        <DEFAULT_SOURCE_PATH>_ "H:\iar\IAR Systems\Embedded Workbench 8.0\arm\bin\pemicro\P&amp;E"</DEFAULT_SOURCE_PATH>
+    </PE_SETTINGS>
+    <PE_STARTUP12>
+        <show_hstep_assembly_details_new>_ "0"</show_hstep_assembly_details_new>
+    </PE_STARTUP12>
+    <PE_ARM>
+        <FILE1>_ ""</FILE1>
+        <BINTORAM>_ "1"</BINTORAM>
+        <BINTOFLASH>_ "0"</BINTOFLASH>
+        <BINTOFLASHDEFAULT>_ "0"</BINTOFLASHDEFAULT>
+        <GOTILMAINDEFAULTON>_ "1"</GOTILMAINDEFAULTON>
+        <KEEPCPROGOPEN>_ "0"</KEEPCPROGOPEN>
+    </PE_ARM>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject}.492.5" 0 0 0 0 "" 0 "" 0</Bp0>
+        <Bp1>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject2017628-3050kaermanaa}.89.5" 0 0 0 0 "" 0 "" 0</Bp1>
+        <Bp2>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject\main.c}.64.5" 0 0 0 0 "" 0 "" 0</Bp2>
+        <Bp3>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject\main.c}.121.1" 0 0 0 0 "" 0 "" 0</Bp3>
+        <Bp4>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject20170713ch\key_group.c}.72.1" 0 0 0 0 "" 0 "" 0</Bp4>
+        <Bp5>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject20170713ch\main.c}.74.5" 0 0 0 0 "" 0 "" 0</Bp5>
+        <Bp6>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject20170713ch\main.c}.153.1" 0 0 0 0 "" 0 "" 0</Bp6>
+        <Bp7>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject20170714ch\main.c}.99.5" 1 0 0 0 "" 0 "" 0</Bp7>
+        <Bp8>_ "STD_CODE" "{F:\kv58NXP\SDK_2.2_TWR-KV58F220M\boards\twrkv58f220m\user_apps\myProject20170714ch\main.c}.150.1" 1 0 0 0 "" 0 "" 0</Bp8>
+        <Count>9</Count>
+    </Breakpoints>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\picture_deal.c}.56.3" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\picture_deal.c}.242.5" 0 0 1 "" 0 "" 0</Bp1>
+        <Count>2</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\JinZhaoxiang\Desktop\7.14舵机没问题\main.c" ""</A0>
+        <A1>_ "C:\Users\JinZhaoxiang\Desktop\7.15加入新的出环岛识别，备份\main.c" ""</A1>
+        <A2>_ "C:\Users\JinZhaoxiang\Desktop\7.16下午加入宽度测量，出环优化\main.c" ""</A2>
+        <A3>_ "C:\Users\JinZhaoxiang\Desktop\7.16下午，程序优化\main.c" ""</A3>
+        <A4>_ "C:\Users\JinZhaoxiang\Desktop\7.18中午加入右环岛,验证大环岛无误\main.c" ""</A4>
+        <A5>_ "C:\Users\JinZhaoxiang\Desktop\7.18早上加入右环岛,验证大环没问题\main.c" ""</A5>
+        <A6>_ "C:\Users\JinZhaoxiang\Desktop\7.19下午,当前最优\main.c" ""</A6>
+        <A7>_ "C:\Users\JinZhaoxiang\Desktop\7.19早,解决实验室右环岛十字问题\main.c" ""</A7>
+        <A8>_ "C:\Users\JinZhaoxiang\Desktop\7.19跟新舵机算法\main.c" ""</A8>
+        <A9>_ "C:\Users\JinZhaoxiang\Desktop\7.20晚上，环岛修正，再无差错\main.c" ""</A9>
+        <A10>_ "C:\Users\JinZhaoxiang\Desktop\7.21中午，解决飞卡两个环岛问题，完美\main.c" ""</A10>
+        <A11>_ "C:\Users\JinZhaoxiang\Desktop\7.24，陈出环岛方案，无差需要优化\main.c" ""</A11>
+        <A12>_ "C:\Users\JinZhaoxiang\Desktop\7.24，黄山学院复兴三号最终\main.c" ""</A12>
+        <A13>_ "C:\Users\JinZhaoxiang\Desktop\7.25晚，加入按键调参\main.c" ""</A13>
+        <A14>_ "C:\Users\JinZhaoxiang\Desktop\KV58_OV7725_Test_Success2018.7.1\ov7725.c" ""</A14>
+        <A15>_ "C:\Users\JinZhaoxiang\Desktop\KV58_Project2018.7.3凌晨\ov7725.c" ""</A15>
+        <A16>_ "C:\Users\JinZhaoxiang\Desktop\myProject20170714ch\ov7725.c" ""</A16>
+        <Count>17</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>

@@ -1,0 +1,15 @@
+"D:\iar\arm\bin\armproc.dll" 
+
+"D:\iar\arm\bin\armjlink2.dll" 
+
+"E:\FREESCALE\KV58版(省赛)\iar\debug\myProject.out" 
+
+--plugin="D:\iar\arm\bin\armbat.dll" 
+
+--device_macro="D:\iar\arm\config\debugger\NXP\KV5x.dmac" 
+
+--flash_loader="D:\iar\arm\config\flashloader\NXP\FlashKV5xF1M0.board" 
+
+
+
+

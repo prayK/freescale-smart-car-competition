@@ -1,0 +1,60 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1440583248
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\天启（调试）高速3.0\Chip\src\IAR\system_MK60DZ10.c" ""
+A1=_ "C:\Users\xinhai0424\Desktop\天启（调试）高速3.0\Chip\src\IAR\system_MK60DZ10.c" ""
+A2=_ "C:\Users\xinhai0424\Desktop\云母电容2.0 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""
+A3=_ "E:\第十二届 比赛\天启2（有编码器） - 副本\Board\src\gpio_init.c" ""
+A4=_ "E:\第十二届 比赛\天启2（有编码器） - 副本\Chip\src\IAR\system_MK60DZ10.c" ""
+A5=_ "E:\第十二届 比赛\天启4（较稳定） - 副本\Chip\src\IAR\system_MK60DZ10.c" ""
+A6=_ "E:\第十二届 比赛\天启6（顺时针跑）（大圆环） - 副本 - 副本 (2)\Board\src\gpio_init.c" ""
+A7=_ "E:\第十二届 比赛\天启6（顺时针跑）（大圆环）\Chip\src\IAR\system_MK60DZ10.c" ""
+A8=_ "E:\第十二届 比赛\云母电容 （最终程序）\Lib\CMSIS\Inc\core_cm4.h" ""
+A9=_ "E:\智能车竞赛\云母电容 1.0 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""
+A10=_ "E:\智能车竞赛\云母电容2.0 （菜单代替拨码） - 副本\Lib\CMSIS\Inc\core_cm4.h" ""
+A11=_ "E:\智能车竞赛\云母电容2.0 常规 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""
+Count=12
+SuppressDialog=1

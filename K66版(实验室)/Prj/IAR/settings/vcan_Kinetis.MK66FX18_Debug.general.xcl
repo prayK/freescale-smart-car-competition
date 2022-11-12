@@ -1,0 +1,15 @@
+"D:\iar\arm\bin\armproc.dll" 
+
+"D:\iar\arm\bin\armjlink2.dll" 
+
+"E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out" 
+
+--plugin="D:\iar\arm\bin\armbat.dll" 
+
+--device_macro="D:\iar\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="D:\iar\arm\config\debugger\NXP\K6x_Trace.dmac" 
+
+
+
+

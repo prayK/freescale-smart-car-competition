@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <DebugChecksum>
+        <Checksum>2125436002</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <JLinkDriver>
+        <TraceBufferSize>0x00010000</TraceBufferSize>
+        <TraceStallIfFIFOFull>0x00000000</TraceStallIfFIFOFull>
+        <TracePortSize>0x00000004</TracePortSize>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <Log_file>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </Log_file>
+    <Disassemble_mode>
+        <mode>0</mode>
+    </Disassemble_mode>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\Administrator\Desktop\天启（调试）高速3.0\Chip\src\IAR\system_MK60DZ10.c" ""</A0>
+        <A1>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.10，换舵机后版本(优化)\Chip\src\IAR\system_MK60DZ10.c" ""</A1>
+        <A2>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.13加入按键调节摄像头阈值\Board\src\init.c" ""</A2>
+        <A3>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.13加入按键调节摄像头阈值\Chip\src\IAR\system_MK60DZ10.c" ""</A3>
+        <A4>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.13加入按键调节摄像头阈值\Chip\src\MK60_spi.c" ""</A4>
+        <A5>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.13加入按键调节摄像头阈值\Chip\src\misc.c" ""</A5>
+        <A6>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.15，当前环岛识别最优\App\main.c" ""</A6>
+        <A7>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版8.16下午，优化障碍，代码基本定型\Board\src\init.c" ""</A7>
+        <A8>_ "C:\Users\JinZhaoxiang\Desktop\复兴三号—K60版\Chip\src\IAR\system_MK60DZ10.c" ""</A8>
+        <A9>_ "C:\Users\xinhai0424\Desktop\云母电容2.0 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""</A9>
+        <A10>_ "C:\Users\xinhai0424\Desktop\天启（调试）高速3.0\Chip\src\IAR\system_MK60DZ10.c" ""</A10>
+        <A11>_ "E:\智能车竞赛\云母电容 1.0 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""</A11>
+        <A12>_ "E:\智能车竞赛\云母电容2.0 常规 - 副本\Lib\CMSIS\Inc\core_cm4.h" ""</A12>
+        <A13>_ "E:\智能车竞赛\云母电容2.0 （菜单代替拨码） - 副本\Lib\CMSIS\Inc\core_cm4.h" ""</A13>
+        <A14>_ "E:\第十二届 比赛\云母电容 （最终程序）\Lib\CMSIS\Inc\core_cm4.h" ""</A14>
+        <A15>_ "E:\第十二届 比赛\天启2（有编码器） - 副本\Board\src\gpio_init.c" ""</A15>
+        <A16>_ "E:\第十二届 比赛\天启2（有编码器） - 副本\Chip\src\IAR\system_MK60DZ10.c" ""</A16>
+        <A17>_ "E:\第十二届 比赛\天启4（较稳定） - 副本\Chip\src\IAR\system_MK60DZ10.c" ""</A17>
+        <A18>_ "E:\第十二届 比赛\天启6（顺时针跑）（大圆环） - 副本 - 副本 (2)\Board\src\gpio_init.c" ""</A18>
+        <A19>_ "E:\第十二届 比赛\天启6（顺时针跑）（大圆环）\Chip\src\IAR\system_MK60DZ10.c" ""</A19>
+        <Count>20</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>

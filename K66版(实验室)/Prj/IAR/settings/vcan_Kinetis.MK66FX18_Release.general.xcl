@@ -1,0 +1,17 @@
+"D:\iar\arm\bin\armproc.dll" 
+
+"D:\iar\arm\bin\armjlink2.dll" 
+
+"E:\发光二极管队软件\发光二极管主程序\备注.c" 
+
+--plugin "D:\iar\arm\bin\armbat.dll" 
+
+--device_macro "D:\iar\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro "D:\iar\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+--flash_loader "E:\发光二极管队软件\发光二极管主程序\Prj\IAR\config files\vcan_K66.board" 
+
+
+
+

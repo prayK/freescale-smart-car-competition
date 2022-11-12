@@ -1,0 +1,651 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  07/Apr/2020  12:07:08
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\JINZHA~1\AppData\Local\Temp\EWC9B1.tmp
+#        ("E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\CAMERA.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\COMMUNICATION.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\ImageDeal.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\ImageInformation.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\KEY.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\LCD_ST7735S.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\LED.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\main.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\misc.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_adc.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_conf.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_dma.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_flexbus.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_gpio.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_i2c.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_port.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_rtc.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_sdhc.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_spi.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_uart.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MK66_wdog.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\ModulesInit.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\MyLibrary.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\OLED.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\OV7725_EAGLE.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\SCCB.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\ServoControl.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\SmartCarControl.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\startup_MK66FX18.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\system_MK66FX18.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\vectors.o"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj\备注.o"
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        --no_out_extension -o
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Exe\vcan_Kinetis.out"
+#        --map
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\List\vcan_Kinetis.map"
+#        --config "E:\FREESCALE\K66版(实验室)\Prj\IAR\config
+#        files\vcan_ROM_K66X1M.icf"
+#        "E:\FREESCALE\K66版(实验室)\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a"
+#        --entry __iar_program_start --redirect __write=__write_buffered --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1'0000 { ro section .intvec };
+"A1":  place at 0x1'0410 { ro section .noinit };
+define block CodeRelocate { section .textrw_init };
+"P1":  place in [from 0x1'0000 to 0x10'0000] { ro, block CodeRelocate };
+define block CodeRelocateRam { section .textrw };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x1fff'0410 to 0x2003'0000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+No sections matched the following patterns:
+
+  section .textrw       in block CodeRelocateRam
+  section .textrw_init  in block CodeRelocate
+
+
+  Section              Kind         Address    Size  Object
+  -------              ----         -------    ----  ------
+"A0":                                         0x410
+  .intvec              const       0x1'0000   0x410  vectors.o [1]
+                                 - 0x1'0410   0x410
+
+"A1":                                           0x8
+  .noinit              ro code     0x1'0410     0x8  startup_MK66FX18.o [1]
+                                 - 0x1'0418     0x8
+
+"P1", part 1 of 2:                           0xa68c
+  .text                ro code     0x1'0418  0x2f28  ImageInformation.o [1]
+  .text                ro code     0x1'3340   0x1e4  OV7725_EAGLE.o [1]
+  .text                ro code     0x1'3524   0x524  ImageDeal.o [1]
+  .text                ro code     0x1'3a48    0xc0  LED.o [1]
+  .text                ro code     0x1'3b08   0x1c4  MK66_gpio.o [1]
+  .text                ro code     0x1'3ccc     0x8  abs.o [2]
+  .text                ro code     0x1'3cd4   0x264  MK66_dma.o [1]
+  .text                ro code     0x1'3f38    0xc4  MK66_port.o [1]
+  .text                ro code     0x1'3ffc   0x36a  SCCB.o [1]
+  .text                ro code     0x1'4366    0x3a  zero_init3.o [4]
+  .text                ro code     0x1'43a0    0x48  FltToDbl.o [3]
+  .text                ro code     0x1'43e8   0x246  DblDiv.o [3]
+  .text                ro code     0x1'4630    0x68  DblToFlt.o [3]
+  .text                ro code     0x1'4698    0xe2  DblSub.o [3]
+  .text                ro code     0x1'477c    0x2e  DblCmpGe.o [3]
+  .text                ro code     0x1'47ac    0xd0  MK66_conf.o [1]
+  .text                ro code     0x1'487c   0x16a  DblAdd.o [3]
+  .text                ro code     0x1'49e8   0x244  MK66_uart.o [1]
+  .data_init                       0x1'4c2c  0x2ea4  <Block>
+    Initializer bytes  const       0x1'4c2c  0x2ea4  <for .data-1>
+  .text                ro code     0x1'7ad0  0x1cf8  LCD_ST7735S.o [1]
+  .text                ro code     0x1'97c8   0x998  SmartCarControl.o [1]
+  .text                ro code     0x1'a160   0x102  sqrt.o [3]
+  .text                ro code     0x1'a264   0x284  ModulesInit.o [1]
+  .text                ro code     0x1'a4e8    0x54  misc.o [1]
+  .text                ro code     0x1'a53c   0x12c  system_MK66FX18.o [1]
+  .text                ro code     0x1'a668    0x40  MK66_wdog.o [1]
+  .text                ro code     0x1'a6a8    0x18  main.o [1]
+  .text                ro code     0x1'a6c0    0xc8  ServoControl.o [1]
+  .rodata              const       0x1'a788    0x50  LCD_ST7735S.o [1]
+  .rodata              const       0x1'a7d8    0x4c  MK66_dma.o [1]
+  .rodata              const       0x1'a824    0x4c  MK66_gpio.o [1]
+  .rodata              const       0x1'a870    0x4c  MK66_uart.o [1]
+  .rodata              const       0x1'a8bc    0x48  misc.o [1]
+  .text                ro code     0x1'a904    0x28  data_init.o [4]
+  .rodata              const       0x1'a92c    0x24  MK66_conf.o [1]
+  .text                ro code     0x1'a950    0x22  fpinit_M.o [3]
+  .iar.init_table      const       0x1'a974    0x10  - Linker created -
+  .text                ro code     0x1'a984    0x1e  cmain.o [4]
+  .text                ro code     0x1'a9a2     0x4  low_level_init.o [2]
+  .text                ro code     0x1'a9a6     0x4  exit.o [2]
+  .text                ro code     0x1'a9ac     0xa  cexit.o [4]
+  .text                ro code     0x1'a9b8     0xc  XXexit.o [4]
+  .rodata              const       0x1'a9c4     0xc  MK66_conf.o [1]
+  .text                ro code     0x1'a9d0     0xc  cstartup_M.o [4]
+  .rodata              const       0x1'a9dc     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'a9e4     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'a9ec     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'a9f4     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'a9fc     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'aa04     0x8  SmartCarControl.o [1]
+  .rodata              const       0x1'aa0c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa10     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa14     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa18     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa1c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa20     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa24     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa28     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa2c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa30     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa34     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa38     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa3c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa40     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa44     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa48     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa4c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa50     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa54     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa58     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa5c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa60     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa64     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa68     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa6c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa70     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa74     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa78     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa7c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa80     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa84     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa88     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa8c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa90     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa94     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa98     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aa9c     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aaa0     0x4  SmartCarControl.o [1]
+  .rodata              const       0x1'aaa4     0x0  zero_init3.o [4]
+                                 - 0x1'aaa4  0xa68c
+
+"P1", part 2 of 2:                              0x0
+  CodeRelocate                     0x1'aaa4     0x0  <Block>
+
+"P2", part 1 of 3:                           0x2ea4
+  .data                         0x1fff'0410  0x2ea4  <Block>
+    .data-1                     0x1fff'0410  0x2ea2  <Init block>
+      .data            inited   0x1fff'0410     0x8  ImageDeal.o [1]
+      .data            inited   0x1fff'0418     0x8  ImageDeal.o [1]
+      .data            inited   0x1fff'0420    0x40  ImageInformation.o [1]
+      .data            inited   0x1fff'0460    0x40  ImageInformation.o [1]
+      .data            inited   0x1fff'04a0    0x3c  ImageInformation.o [1]
+      .data            inited   0x1fff'04dc    0x14  LCD_ST7735S.o [1]
+      .data            inited   0x1fff'04f0     0x4  LED.o [1]
+      .data            inited   0x1fff'04f4     0x4  MK66_conf.o [1]
+      .data            inited   0x1fff'04f8    0x14  MK66_gpio.o [1]
+      .data            inited   0x1fff'050c    0x14  MK66_port.o [1]
+      .data            inited   0x1fff'0520    0x14  MK66_uart.o [1]
+      .data            inited   0x1fff'0534    0x64  OV7725_EAGLE.o [1]
+      .data            inited   0x1fff'0598     0x4  SmartCarControl.o [1]
+      .data            inited   0x1fff'059c     0x4  SmartCarControl.o [1]
+      .data            inited   0x1fff'05a0     0x4  SmartCarControl.o [1]
+      .data            inited   0x1fff'05a4     0x4  SmartCarControl.o [1]
+      .data            inited   0x1fff'05a8  0x2d00  SmartCarControl.o [1]
+      .data            inited   0x1fff'32a8     0x2  ImageDeal.o [1]
+      .data            inited   0x1fff'32aa     0x2  LCD_ST7735S.o [1]
+      .data            inited   0x1fff'32ac     0x2  LCD_ST7735S.o [1]
+      .data            inited   0x1fff'32ae     0x1  ImageInformation.o [1]
+      .data            inited   0x1fff'32af     0x1  ImageInformation.o [1]
+      .data            inited   0x1fff'32b0     0x1  OV7725_EAGLE.o [1]
+      .data            inited   0x1fff'32b1     0x1  OV7725_EAGLE.o [1]
+                              - 0x1fff'32b4  0x2ea4
+
+"P2", part 2 of 3:                           0x20d0
+  .bss                          0x1fff'32b4  0x20d0  <Block>
+    .bss               zero     0x1fff'32b4     0x4  ImageDeal.o [1]
+    .bss               zero     0x1fff'32b8     0x4  ImageDeal.o [1]
+    .bss               zero     0x1fff'32bc    0x3c  ImageDeal.o [1]
+    .bss               zero     0x1fff'32f8    0x78  ImageDeal.o [1]
+    .bss               zero     0x1fff'3370    0x3c  ImageDeal.o [1]
+    .bss               zero     0x1fff'33ac     0x4  ImageDeal.o [1]
+    .bss               zero     0x1fff'33b0     0x4  ImageInformation.o [1]
+    .bss               zero     0x1fff'33b4   0x960  ImageInformation.o [1]
+    .bss               zero     0x1fff'3d14  0x12c0  ImageInformation.o [1]
+    .bss               zero     0x1fff'4fd4    0x78  ImageInformation.o [1]
+    .bss               zero     0x1fff'504c    0xf0  ImageInformation.o [1]
+    .bss               zero     0x1fff'513c    0xf0  ImageInformation.o [1]
+    .bss               zero     0x1fff'522c    0xf0  ImageInformation.o [1]
+    .bss               zero     0x1fff'531c     0x4  OV7725_EAGLE.o [1]
+    .bss               zero     0x1fff'5320     0x4  ServoControl.o [1]
+    .bss               zero     0x1fff'5324     0x4  ServoControl.o [1]
+    .bss               zero     0x1fff'5328     0x4  SmartCarControl.o [1]
+    .bss               zero     0x1fff'532c     0x4  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5330     0x4  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5334     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff'5338     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff'533c     0x4  system_MK66FX18.o [1]
+    .bss               zero     0x1fff'5340     0x2  ImageDeal.o [1]
+    .bss               zero     0x1fff'5342     0x2  ImageDeal.o [1]
+    .bss               zero     0x1fff'5344     0x2  ImageDeal.o [1]
+    .bss               zero     0x1fff'5346     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5348     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'534a     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'534c     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'534e     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5350     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5352     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5354     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5356     0x2  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5358     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'5359     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'535a     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'535b     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'535c     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'535d     0x1  ImageDeal.o [1]
+    .bss               zero     0x1fff'535e     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'535f     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5360     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5361     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5362     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5363     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5364     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5365     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5366     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5367     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5368     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5369     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536a     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536b     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536c     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536d     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536e     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'536f     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5370     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5371     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5372     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5373     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5374     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5375     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5376     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5377     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5378     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'5379     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'537a     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'537b     0x1  ImageInformation.o [1]
+    .bss               zero     0x1fff'537c     0x1  LCD_ST7735S.o [1]
+    .bss               zero     0x1fff'537d     0x1  ModulesInit.o [1]
+    .bss               zero     0x1fff'537e     0x1  ServoControl.o [1]
+    .bss               zero     0x1fff'537f     0x1  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5380     0x1  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5381     0x1  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5382     0x1  SmartCarControl.o [1]
+    .bss               zero     0x1fff'5383     0x1  SmartCarControl.o [1]
+                              - 0x1fff'5384  0x20d0
+
+"P2", part 3 of 3:                              0x0
+  CodeRelocateRam               0x1fff'5384     0x0  <Block>
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+     0x1'aaa4    0x10'0000  0xe'555d
+  0x1fff'5384  0x2003'0000  0x3'ac7d
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x20d0:
+          0x1fff'32b4  0x20d0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+command line/config:
+    ---------------------------------------------
+    Total:
+
+E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj: [1]
+    ImageDeal.o           1 316       18      282
+    ImageInformation.o   12 072      190    8 264
+    LCD_ST7735S.o         7 416      104       25
+    LED.o                   192        4        4
+    MK66_conf.o             208       52        4
+    MK66_dma.o              612       76
+    MK66_gpio.o             452       96       20
+    MK66_port.o             196       20       20
+    MK66_uart.o             580       96       20
+    MK66_wdog.o              64
+    ModulesInit.o           644                 1
+    OV7725_EAGLE.o          484      102      106
+    SCCB.o                  874
+    ServoControl.o          200                 9
+    SmartCarControl.o     2 456   11 736   11 571
+    main.o                   24
+    misc.o                   84       72
+    startup_MK66FX18.o        8
+    system_MK66FX18.o       300                12
+    vectors.o                      1 040
+    ---------------------------------------------
+    Total:               28 182   13 606   20 338
+
+dl7M_tlf.a: [2]
+    abs.o                     8
+    exit.o                    4
+    low_level_init.o          4
+    ---------------------------------------------
+    Total:                   16
+
+m7M_tls.a: [3]
+    DblAdd.o                362
+    DblCmpGe.o               46
+    DblDiv.o                582
+    DblSub.o                226
+    DblToFlt.o              104
+    FltToDbl.o               72
+    fpinit_M.o               34
+    sqrt.o                  258
+    ---------------------------------------------
+    Total:                1 684
+
+rt7M_tl.a: [4]
+    XXexit.o                 12
+    cexit.o                  10
+    cmain.o                  30
+    cstartup_M.o             12
+    data_init.o              40
+    zero_init3.o             58
+    ---------------------------------------------
+    Total:                  162
+
+    Gaps                     14        2
+    Linker created                    18
+-------------------------------------------------
+    Grand Total:         30 058   13 626   20 338
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.bss$$Base              0x1fff'32b4           --   Gb  - Linker created -
+.bss$$Limit             0x1fff'5384           --   Gb  - Linker created -
+.data$$Base             0x1fff'0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff'32b4           --   Gb  - Linker created -
+.data_init$$Base           0x1'4c2c           --   Gb  - Linker created -
+.data_init$$Limit          0x1'7ad0           --   Gb  - Linker created -
+.iar.init_table$$Base      0x1'a974           --   Gb  - Linker created -
+.iar.init_table$$Limit     0x1'a984           --   Gb  - Linker created -
+?main                      0x1'a985          Code  Gb  cmain.o [4]
+ASSERT_FAILED_STR          0x1'a92c    0x24  Data  Gb  MK66_conf.o [1]
+Boma_Key_Init              0x1'a3f5    0x90  Code  Gb  ModulesInit.o [1]
+CenterValue             0x1fff'33ac     0x4  Data  Gb  ImageDeal.o [1]
+CodeRelocate$$Base         0x1'aaa4           --   Gb  - Linker created -
+CodeRelocate$$Limit        0x1'aaa4           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff'5384           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff'5384           --   Gb  - Linker created -
+CurrentError            0x1fff'535b     0x1  Data  Gb  ImageDeal.o [1]
+DMA0_IRQHandler            0x1'a4e1     0x8  Code  Gb  ModulesInit.o [1]
+DisPlay_BMP             0x1fff'05a8  0x2d00  Data  Gb  SmartCarControl.o [1]
+DutyBack                0x1fff'534c     0x2  Data  Gb  SmartCarControl.o [1]
+DutyGo                  0x1fff'534a     0x2  Data  Gb  SmartCarControl.o [1]
+EncoderRead                0x1'97c9    0x26  Code  Gb  SmartCarControl.o [1]
+ErrorRecord             0x1fff'5362     0x1  Data  Gb  ImageInformation.o [1]
+GPIOX                   0x1fff'04f8    0x14  Data  Gb  MK66_gpio.o [1]
+GoalSpeed               0x1fff'5348     0x2  Data  Gb  SmartCarControl.o [1]
+GoalSpeedSet               0x1'97f1   0x26e  Code  Gb  SmartCarControl.o [1]
+H                       0x1fff'536b     0x1  Data  Gb  ImageInformation.o [1]
+ImageIdentification        0x1'0419  0x2d08  Code  Gb  ImageInformation.o [1]
+ImageWatching              0x1'9bfd   0x3ea  Code  Gb  SmartCarControl.o [1]
+IncrementalServoControl
+                           0x1'a6c1    0xa2  Code  Gb  ServoControl.o [1]
+LCD_ST7735S_dir            0x1'8b65   0xa0e  Code  Gb  LCD_ST7735S.o [1]
+LCD_ST7735S_init           0x1'7ad1    0x12  Code  Gb  LCD_ST7735S.o [1]
+LCD_ST7735S_org_init       0x1'7ae5   0xfd2  Code  Gb  LCD_ST7735S.o [1]
+LCD_ST7735S_ptlon          0x1'9589   0x21c  Code  Gb  LCD_ST7735S.o [1]
+LCD_ST7735S_ramwr          0x1'8ab7    0x3a  Code  Gb  LCD_ST7735S.o [1]
+LCD_ST7735S_wr_data_t      0x1'8af1    0x74  Code  Gb  LCD_ST7735S.o [1]
+LED_PTxn                0x1fff'04f0     0x4  Data  Gb  LED.o [1]
+L_min                   0x1fff'5359     0x1  Data  Gb  ImageDeal.o [1]
+LastError               0x1fff'537e     0x1  Data  Gb  ServoControl.o [1]
+LeftRing_Find_Flag      0x1fff'5360     0x1  Data  Gb  ImageInformation.o [1]
+LittleSFlag             0x1fff'537f     0x1  Data  Gb  SmartCarControl.o [1]
+LostFlagDisplay            0x1'9b8b    0x72  Code  Gb  SmartCarControl.o [1]
+MotorControl               0x1'9a65   0x126  Code  Gb  SmartCarControl.o [1]
+NVIC_DisableIRQ            0x1'3357    0x16  Code  Lc  OV7725_EAGLE.o [1]
+NVIC_EnableIRQ             0x1'a281    0x16  Code  Lc  ModulesInit.o [1]
+NVIC_EnableIRQ             0x1'3341    0x16  Code  Lc  OV7725_EAGLE.o [1]
+NVIC_SetPriority           0x1'a297    0x2c  Code  Lc  ModulesInit.o [1]
+NVIC_SetPriorityGrouping
+                           0x1'a265    0x1c  Code  Lc  ModulesInit.o [1]
+NeedLine                0x1fff'04a0    0x3c  Data  Gb  ImageInformation.o [1]
+OutRingFind_Flag        0x1fff'535c     0x1  Data  Gb  ImageDeal.o [1]
+PIT0_IRQHandler            0x1'a39d    0x58  Code  Gb  ModulesInit.o [1]
+PORTA_IRQHandler           0x1'a485    0x26  Code  Gb  ModulesInit.o [1]
+PORTX                   0x1fff'050c    0x14  Data  Gb  MK66_port.o [1]
+PulseCount              0x1fff'5346     0x2  Data  Gb  SmartCarControl.o [1]
+R_max                   0x1fff'5358     0x1  Data  Gb  ImageDeal.o [1]
+Region$$Table$$Base        0x1'a974           --   Gb  - Linker created -
+Region$$Table$$Limit       0x1'a984           --   Gb  - Linker created -
+Reset_Handler              0x1'0411          Code  Gb  startup_MK66FX18.o [1]
+Ring_Find_Flag          0x1fff'535f     0x1  Data  Gb  ImageInformation.o [1]
+Ring_Line_Value         0x1fff'5361     0x1  Data  Gb  ImageInformation.o [1]
+SCCB_Ack                   0x1'40d1    0x3c  Code  Lc  SCCB.o [1]
+SCCB_GPIO_init             0x1'4017    0x28  Code  Gb  SCCB.o [1]
+SCCB_NoAck                 0x1'410d    0x3c  Code  Lc  SCCB.o [1]
+SCCB_ReadByte              0x1'42af    0x2e  Code  Gb  SCCB.o [1]
+SCCB_ReadByte_one          0x1'42dd    0x8a  Code  Lc  SCCB.o [1]
+SCCB_ReceiveByte           0x1'41d9    0x54  Code  Lc  SCCB.o [1]
+SCCB_SendByte              0x1'4195    0x44  Code  Lc  SCCB.o [1]
+SCCB_Start                 0x1'403f    0x5e  Code  Lc  SCCB.o [1]
+SCCB_Stop                  0x1'409d    0x34  Code  Lc  SCCB.o [1]
+SCCB_WaitAck               0x1'4149    0x4c  Code  Lc  SCCB.o [1]
+SCCB_WriteByte             0x1'423d    0x2a  Code  Gb  SCCB.o [1]
+SCCB_WriteByte_one         0x1'4267    0x48  Code  Lc  SCCB.o [1]
+SCCB_delay                 0x1'3ffd    0x1a  Code  Lc  SCCB.o [1]
+S_Error                 0x1fff'5356     0x2  Data  Gb  SmartCarControl.o [1]
+S_num                   0x1fff'5344     0x2  Data  Gb  ImageDeal.o [1]
+ServoOutPut             0x1fff'5324     0x4  Data  Gb  ServoControl.o [1]
+ServoPDValue            0x1fff'0418     0x8  Data  Gb  ImageDeal.o [1]
+ServoPIDCalculate       0x1fff'5320     0x4  Data  Gb  ServoControl.o [1]
+ServoPValue             0x1fff'0410     0x8  Data  Gb  ImageDeal.o [1]
+SpeedOutPut             0x1fff'534e     0x2  Data  Gb  SmartCarControl.o [1]
+Speed_Ek0               0x1fff'5350     0x2  Data  Gb  SmartCarControl.o [1]
+Speed_Ek1               0x1fff'5352     0x2  Data  Gb  SmartCarControl.o [1]
+Speed_Ek2               0x1fff'5354     0x2  Data  Gb  SmartCarControl.o [1]
+Speed_Kd                0x1fff'5328     0x4  Data  Gb  SmartCarControl.o [1]
+Speed_Ki                0x1fff'059c     0x4  Data  Gb  SmartCarControl.o [1]
+Speed_Kp                0x1fff'0598     0x4  Data  Gb  SmartCarControl.o [1]
+StartLineFind_Flag      0x1fff'535e     0x1  Data  Gb  ImageInformation.o [1]
+StreetRealize              0x1'3859    0x5a  Code  Gb  ImageDeal.o [1]
+System_Init                0x1'a2c5    0xd6  Code  Gb  ModulesInit.o [1]
+UARTN                   0x1fff'0520    0x14  Data  Gb  MK66_uart.o [1]
+UFlag                   0x1fff'535d     0x1  Data  Gb  ImageDeal.o [1]
+UseLineValueChangePValue
+                           0x1'38b3   0x10e  Code  Gb  ImageDeal.o [1]
+UseTheWeightCountCenterlineAverage
+                           0x1'3525   0x334  Code  Gb  ImageDeal.o [1]
+User_Stop_Line_JianCe      0x1'312d   0x1c0  Code  Gb  ImageInformation.o [1]
+W                       0x1fff'536c     0x1  Data  Gb  ImageInformation.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2002'fff8          Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x1fff'0000          Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}       0x1'0000          Data  Gb  <internal module>
+__aeabi_cdrcmple           0x1'477d          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2f                0x1'4631          Code  Gb  DblToFlt.o [3]
+__aeabi_ddiv               0x1'43e9          Code  Gb  DblDiv.o [3]
+__aeabi_dsub               0x1'4699          Code  Gb  DblSub.o [3]
+__aeabi_f2d                0x1'43a1          Code  Gb  FltToDbl.o [3]
+__cmain                    0x1'a985          Code  Gb  cmain.o [4]
+__code_start__ {Abs}       0x1'0410          Data  Gb  <internal module>
+__exit                     0x1'a9b9          Code  Gb  XXexit.o [4]
+__iar_dadd                 0x1'46a9          Code  Gb  DblSub.o [3]
+__iar_data_init3           0x1'a905    0x28  Code  Gb  data_init.o [4]
+__iar_dsub                 0x1'487d          Code  Gb  DblAdd.o [3]
+__iar_dsubStart            0x1'488f          Code  Gb  DblAdd.o [3]
+__iar_init_vfp             0x1'a951          Code  Gb  fpinit_M.o [3]
+__iar_program_start        0x1'a9d1          Code  Gb  cstartup_M.o [4]
+__iar_sqrt64               0x1'a171          Code  Gb  sqrt.o [3]
+__iar_vfp___iar_sqrt64     0x1'a161          Code  Gb  sqrt.o [3]
+__iar_vfp_sqrt             0x1'a161          Code  Gb  sqrt.o [3]
+__iar_vfp_sqrtl            0x1'a161          Code  Gb  sqrt.o [3]
+__iar_zero_init3           0x1'4367    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init           0x1'a9a3     0x4  Code  Gb  low_level_init.o [2]
+__vector_table             0x1'0000   0x410  Data  Gb  vectors.o [1]
+_call_main                 0x1'a991          Code  Gb  cmain.o [4]
+_exit                      0x1'a9ad          Code  Gb  cexit.o [4]
+_main                      0x1'a99f          Code  Gb  cmain.o [4]
+a                       0x1fff'532c     0x4  Data  Gb  SmartCarControl.o [1]
+abs                        0x1'3ccd     0x8  Code  Gb  abs.o [2]
+assert_failed              0x1'47ed    0x2c  Code  Gb  MK66_conf.o [1]
+assist0                 0x1fff'5363     0x1  Data  Gb  ImageInformation.o [1]
+assist1                 0x1fff'5364     0x1  Data  Gb  ImageInformation.o [1]
+assist2                 0x1fff'5365     0x1  Data  Gb  ImageInformation.o [1]
+assist3                 0x1fff'5366     0x1  Data  Gb  ImageInformation.o [1]
+assist4                 0x1fff'5367     0x1  Data  Gb  ImageInformation.o [1]
+assist5                 0x1fff'5368     0x1  Data  Gb  ImageInformation.o [1]
+assist6                 0x1fff'5369     0x1  Data  Gb  ImageInformation.o [1]
+assist_ADD              0x1fff'536a     0x1  Data  Gb  ImageInformation.o [1]
+ave_S_num               0x1fff'5342     0x2  Data  Gb  ImageDeal.o [1]
+ave_center              0x1fff'32af     0x1  Data  Gb  ImageInformation.o [1]
+ave_center_s            0x1fff'32a8     0x2  Data  Gb  ImageDeal.o [1]
+b                       0x1fff'5330     0x4  Data  Gb  SmartCarControl.o [1]
+bian                    0x1fff'32f8    0x78  Data  Gb  ImageDeal.o [1]
+bian_bi                 0x1fff'32b4     0x4  Data  Gb  ImageDeal.o [1]
+bian_ca                 0x1fff'32b8     0x4  Data  Gb  ImageDeal.o [1]
+bian_line               0x1fff'4fd4    0x78  Data  Gb  ImageInformation.o [1]
+bianbi_num              0x1fff'5340     0x2  Data  Gb  ImageDeal.o [1]
+bianxin                 0x1fff'3370    0x3c  Data  Gb  ImageDeal.o [1]
+bus_clk_khz             0x1fff'533c     0x4  Data  Gb  system_MK66FX18.o [1]
+center_line             0x1fff'504c    0xf0  Data  Gb  ImageInformation.o [1]
+common_startup             0x1'a5a1    0x8a  Code  Gb  system_MK66FX18.o [1]
+core_clk_khz            0x1fff'5334     0x4  Data  Gb  system_MK66FX18.o [1]
+core_clk_mhz            0x1fff'5338     0x4  Data  Gb  system_MK66FX18.o [1]
+default_isr                0x1'482d    0x3e  Code  Gb  MK66_conf.o [1]
+distence                0x1fff'0420    0x40  Data  Gb  ImageInformation.o [1]
+distence2               0x1fff'0460    0x40  Data  Gb  ImageInformation.o [1]
+dma_gpio_input_init        0x1'3cd5    0x5c  Code  Lc  MK66_dma.o [1]
+dma_portx2buff_init        0x1'3d31   0x1d4  Code  Gb  MK66_dma.o [1]
+enter_fputc                0x1'4819    0x14  Code  Gb  MK66_conf.o [1]
+exit                       0x1'a9a7     0x4  Code  Gb  exit.o [2]
+flag_stopcar            0x1fff'537d     0x1  Data  Gb  ModulesInit.o [1]
+glcd                    0x1fff'04f4     0x4  Data  Gb  MK66_conf.o [1]
+gpio_get                   0x1'3c85    0x3e  Code  Gb  MK66_gpio.o [1]
+gpio_init                  0x1'3b09    0xc2  Code  Gb  MK66_gpio.o [1]
+gpio_set                   0x1'3bcb    0x7e  Code  Gb  MK66_gpio.o [1]
+gpio_turn                  0x1'3c49    0x3c  Code  Gb  MK66_gpio.o [1]
+h_left_lost             0x1fff'5373     0x1  Data  Gb  ImageInformation.o [1]
+h_left_lost_Dis         0x1fff'5380     0x1  Data  Gb  SmartCarControl.o [1]
+h_right_lost            0x1fff'5374     0x1  Data  Gb  ImageInformation.o [1]
+h_right_lost_Dis        0x1fff'5381     0x1  Data  Gb  SmartCarControl.o [1]
+i                       0x1fff'536d     0x1  Data  Gb  ImageInformation.o [1]
+img                     0x1fff'3d14  0x12c0  Data  Gb  ImageInformation.o [1]
+imgbuff                 0x1fff'33b4   0x960  Data  Gb  ImageInformation.o [1]
+j                       0x1fff'536e     0x1  Data  Gb  ImageInformation.o [1]
+l                       0x1fff'536f     0x1  Data  Gb  ImageInformation.o [1]
+lcd_st7735s             0x1fff'04dc    0x14  Data  Gb  LCD_ST7735S.o [1]
+led                        0x1'3a89    0x42  Code  Gb  LED.o [1]
+led_init                   0x1'3a49    0x40  Code  Gb  LED.o [1]
+led_turn                   0x1'3acb    0x38  Code  Gb  LED.o [1]
+left_lost               0x1fff'5371     0x1  Data  Gb  ImageInformation.o [1]
+left_lost_Dis           0x1fff'5383     0x1  Data  Gb  SmartCarControl.o [1]
+line                    0x1fff'32bc    0x3c  Data  Gb  ImageDeal.o [1]
+main                       0x1'a6a9    0x18  Code  Gb  main.o [1]
+num_ave                 0x1fff'5370     0x1  Data  Gb  ImageInformation.o [1]
+ov7725_eagle_cfgnum     0x1fff'32b1     0x1  Data  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_dma           0x1'3425    0x14  Code  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_get_img       0x1'3439    0x42  Code  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_img_buff   0x1fff'531c     0x4  Data  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_img_flag   0x1fff'32b0     0x1  Data  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_init          0x1'336d    0x18  Code  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_port_init     0x1'3385    0x54  Code  Lc  OV7725_EAGLE.o [1]
+ov7725_eagle_reg        0x1fff'0534    0x64  Data  Gb  OV7725_EAGLE.o [1]
+ov7725_eagle_reg_init      0x1'347b    0x70  Code  Lc  OV7725_EAGLE.o [1]
+ov7725_eagle_vsync         0x1'33d9    0x4c  Code  Gb  OV7725_EAGLE.o [1]
+point                   0x1fff'32ae     0x1  Data  Gb  ImageInformation.o [1]
+port_init                  0x1'3f39    0x4c  Code  Gb  MK66_port.o [1]
+port_init_NoALT            0x1'3f85    0x6e  Code  Gb  MK66_port.o [1]
+right_lost              0x1fff'5372     0x1  Data  Gb  ImageInformation.o [1]
+right_lost_Dis          0x1fff'5382     0x1  Data  Gb  SmartCarControl.o [1]
+set_vector_handler         0x1'a50b    0x24  Code  Gb  misc.o [1]
+shi_flag                0x1fff'5379     0x1  Data  Gb  ImageInformation.o [1]
+sit_L                   0x1fff'513c    0xf0  Data  Gb  ImageInformation.o [1]
+sit_R                   0x1fff'522c    0xf0  Data  Gb  ImageInformation.o [1]
+soft_delay_ms              0x1'47d1    0x1c  Code  Gb  MK66_conf.o [1]
+soft_delay_us              0x1'47ad    0x24  Code  Gb  MK66_conf.o [1]
+speed_ave               0x1fff'535a     0x1  Data  Gb  ImageDeal.o [1]
+speed_high              0x1fff'05a4     0x4  Data  Gb  SmartCarControl.o [1]
+speed_low               0x1fff'05a0     0x4  Data  Gb  SmartCarControl.o [1]
+sqrt                       0x1'a171          Code  Gb  sqrt.o [3]
+sqrtl                      0x1'a171          Code  Gb  sqrt.o [3]
+st7735s_dir             0x1fff'537c     0x1  Data  Gb  LCD_ST7735S.o [1]
+st7735s_h               0x1fff'32aa     0x2  Data  Gb  LCD_ST7735S.o [1]
+st7735s_w               0x1fff'32ac     0x2  Data  Gb  LCD_ST7735S.o [1]
+start                      0x1'a53d    0x20  Code  Gb  system_MK66FX18.o [1]
+sum_center              0x1fff'33b0     0x4  Data  Gb  ImageInformation.o [1]
+sysinit                    0x1'a55d    0x44  Code  Gb  system_MK66FX18.o [1]
+tubian_num              0x1fff'537a     0x1  Data  Gb  ImageInformation.o [1]
+tubian_num_H            0x1fff'537b     0x1  Data  Gb  ImageInformation.o [1]
+uart_init                  0x1'49e9   0x20e  Code  Gb  MK66_uart.o [1]
+uart_putchar               0x1'4bf7    0x1e  Code  Gb  MK66_uart.o [1]
+wdog_disable               0x1'a669    0x16  Code  Gb  MK66_wdog.o [1]
+wdog_unlock                0x1'a67f    0x22  Code  Lc  MK66_wdog.o [1]
+write_vtor                 0x1'a4e9    0x22  Code  Gb  misc.o [1]
+za_flag                 0x1fff'5377     0x1  Data  Gb  ImageInformation.o [1]
+za_flag_l               0x1fff'5376     0x1  Data  Gb  ImageInformation.o [1]
+za_flag_r               0x1fff'5375     0x1  Data  Gb  ImageInformation.o [1]
+zhangai                 0x1fff'5378     0x1  Data  Gb  ImageInformation.o [1]
+
+
+[1] = E:\FREESCALE\K66版(实验室)\Prj\IAR\MK66FX18_Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+
+  30 058 bytes of readonly  code memory
+  13 626 bytes of readonly  data memory
+  20 338 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

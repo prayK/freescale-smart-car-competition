@@ -1,0 +1,17 @@
+"D:\iar\arm\bin\armproc.dll" 
+
+"D:\iar\arm\bin\armjlink2.dll" 
+
+"E:\FREESCALE\K60版(国赛)\Debug\Exe\1.out" 
+
+--plugin="D:\iar\arm\bin\armbat.dll" 
+
+--device_macro="D:\iar\arm\config\debugger\NXP\Kxx.dmac" 
+
+--device_macro="D:\iar\arm\config\debugger\NXP\Kxx_Trace.dmac" 
+
+--flash_loader="D:\iar\arm\config\flashloader\NXP\FlashK60Dxxx64K.board" 
+
+
+
+
